@@ -1,3 +1,5 @@
+import streamlit as st
+
 st.session_state.page -= 1
 
 def card_menu(judul, bahan, cocok):
